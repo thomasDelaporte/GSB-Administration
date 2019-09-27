@@ -19,15 +19,15 @@ Le  laboratoire  Galaxy  SwissBourdin  (GSB)  est  issu  de  la  fusion  entre  
 
 ## Conditions de réalisation (ressources fournies, résultats attendus)
 
-Ressources fournies:
+*Ressources fournies*:
 * Cahier des charges de la mission
 * Documentation, tutoriels Laravel
 * Normes de développement
 
-_Environnement_: Laragon(local)
-_SGBD_: SQL Server
-_IDE_: Visual Studio Code
-_Framework_: Laravel
+_Environnement_: Laragon(local)  
+_SGBD_: SQL Server  
+_IDE_: Visual Studio Code  
+_Framework_: Laravel  
 
 ### Fonctionnalités attendue
 
