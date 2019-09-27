@@ -1,0 +1,85 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Datatables
+@import './datatables.scss';
+
+.navbar-laravel {
+  	background-color: #fff;
+  	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.navbar-sub{
+	list-style: none;
+	margin-bottom: 0!important;
+
+	li{
+		float: right;
+
+		&>a{
+			color: #fff;
+		}
+	}
+}
+
+.card-header{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+table tr[data-href]{
+	cursor: pointer;
+}
+
+.table-striped tr.finish{
+	background-color: #C5E1A5!important;
+}
+
+.page-actions{
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.table-filter{
+	margin-bottom: 1rem;
+
+	.form-control{
+		width: auto;
+	}
+}
+
+.dataTables_paginate{
+	margin: 16px!important;
+}
+
+.table td{
+	vertical-align: middle!important;
+}
+
+.table{
+  	&.table-action{
+
+		tbody tr {
+			td:not(.dataTables_empty):last-child{
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+
+				&>:not(:last-child){
+					margin-right: 10px;
+				}
+			}
+		}
+  	}
+}
